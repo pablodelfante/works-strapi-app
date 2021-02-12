@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "gallinas",
+  "collectionName": "pages",
   "info": {
-    "name": "gallinas"
+    "name": "pages",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,14 +11,8 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "nombre": {
+    "page": {
       "type": "string"
-    },
-    "nacimiento": {
-      "type": "date"
-    },
-    "macho": {
-      "type": "boolean"
     }
   }
 }
