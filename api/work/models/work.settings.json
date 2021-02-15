@@ -28,10 +28,20 @@
     },
     "url_image": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "url_github": {
       "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }
