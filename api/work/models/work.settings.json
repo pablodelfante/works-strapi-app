@@ -13,14 +13,16 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "titulo sin definir"
     },
     "content": {
       "type": "richtext"
     },
     "description": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "work sin description"
     },
     "tecnologies": {
       "type": "json",
@@ -42,6 +44,9 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "url_deploy": {
+      "type": "string"
     }
   }
 }
